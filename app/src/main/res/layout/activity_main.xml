@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textViewLog"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/logString" />
+
+    <EditText
+        android:id="@+id/editTextLog"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textViewPwd"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/pwdString" />
+
+    <EditText
+        android:id="@+id/editTextPwd"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Remember me" />
+
+    <Button
+        android:id="@+id/buttonSub"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+
+        android:text="@string/buttonString" />
+
+</LinearLayout>
